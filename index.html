@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio HTML - JS - DOM</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <main>
+        <div class="container-form">
+            <section>
+                <h1>Compare dois números</h1>
+                <h2>Digite dois números nos formulários ao lado.</h2>
+                <h2>Os números serão validos caso o número B</h2>
+                <h2>for maior que o número A</h2>
+            </section>  
+            <form id="form-numeros">
+                <input type="number" id="campo-a" required placeholder="Número A" />
+                <input type="number" id="campo-b" required placeholder="Número B" />
+                <button type="submit" action="#">Enviar</button>
+                <p class="error-message" >Número B deve ser maior que número A</p>
+                <p class="success-message">Certo! Número B é maior que número A</p>
+            </form>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>

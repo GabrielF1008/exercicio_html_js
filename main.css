@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.container-form{
+    background-color: rgb(107, 34, 197);
+    height: 50vh;
+    width: 60vw;
+    justify-items: space;
+    justify-content: space-around;
+    display: flex;
+    position: relative;
+    margin-top: 15vh;
+    border-radius: 20px;
+}
+
+section{
+    margin-top: 60px;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+h2{
+    padding-bottom: 4px;
+    font-size: larger;
+}
+
+#campo-a{
+    margin-bottom: 5px;
+}
+
+form{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 160px;
+}
+
+input{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-top: 5px;
+    outline: none;
+    width: 300px;
+    height: 30px;
+    padding: 18px;
+    font-size: 14px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance:none
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(133, 76, 186);
+}
+
+button{
+    background-color: rgb(57, 0, 111);
+    color: white;
+    margin: auto;
+    margin-top: 10px;
+    width: 110px;
+    padding: 6px;
+    border-radius: 10px;
+    border: none;
+    outline: 1px solid black;
+    font-size: 14px;
+}
+.success-message{
+    background-color: green;
+    color: white;
+    padding: 6px;
+    margin-top: 12px;
+    display: none;
+}
+
+.error-message{
+    background-color: red;
+    color: white;
+    padding: 6px;
+    margin-top: 12px;
+    display: none;
+}
